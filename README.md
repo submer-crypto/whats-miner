@@ -2,6 +2,8 @@
 
 Client library for WhatsMiner JSON over TCP API.
 
+    npm install whats-miner
+
 ## Usage
 
 The client instance exposes a promise based interface for communicating with the WhatsMiner JSON over TCP API. All the methods also accept an optional abort signal used to abort pending requests.
