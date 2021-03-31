@@ -1,0 +1,29 @@
+{
+  "name": "whats-miner",
+  "version": "0.0.0",
+  "description": "Client library for WhatsMiner JSON over TCP API",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard --verbose && tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thermoclinelabs/whats-miner.git"
+  },
+  "keywords": [
+    "whats",
+    "miner",
+    "tcp",
+    "json",
+    "api"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thermoclinelabs/whats-miner/issues"
+  },
+  "homepage": "https://github.com/thermoclinelabs/whats-miner#readme",
+  "devDependencies": {
+    "standard": "^16.0.3",
+    "tape": "^5.2.2"
+  }
+}
