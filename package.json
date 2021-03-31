@@ -1,6 +1,6 @@
 {
   "name": "whats-miner",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Client library for WhatsMiner JSON over TCP API",
   "main": "index.js",
   "scripts": {
