@@ -1,5 +1,5 @@
 {
-  "name": "whats-miner",
+  "name": "@thermoclinelabs/whats-miner",
   "version": "1.0.0",
   "description": "Client library for WhatsMiner JSON over TCP API",
   "main": "index.js",

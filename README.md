@@ -2,7 +2,7 @@
 
 Client library for WhatsMiner JSON over TCP API.
 
-    npm install whats-miner
+    npm install @thermoclinelabs/whats-miner
 
 ## Usage
 
