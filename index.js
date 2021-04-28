@@ -60,6 +60,7 @@ class WhatsMiner {
     try {
       await finished(socket, { signal })
     } catch (err) {
+      socket.destroy()
       if (err.code === 'ABORT_ERR') throw err
       throw new ResponseError(null, err.message)
     }
