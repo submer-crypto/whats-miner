@@ -26,28 +26,28 @@ class WhatsMiner {
     this._port = port
   }
 
-  async summary () {
-    const response = await this.command('summary')
+  async summary (signal) {
+    const response = await this.command('summary', signal)
     return response.SUMMARY
   }
 
-  async pools () {
-    const response = await this.command('pools')
+  async pools (signal) {
+    const response = await this.command('pools', signal)
     return response.POOLS
   }
 
-  async edevs () {
-    const response = await this.command('edevs')
+  async edevs (signal) {
+    const response = await this.command('edevs', signal)
     return response.DEVS
   }
 
-  async devDetails () {
-    const response = await this.command('devdetails')
+  async devDetails (signal) {
+    const response = await this.command('devdetails', signal)
     return response.DEVDETAILS
   }
 
-  async getVersion () {
-    return await this.command('get_version')
+  async getVersion (signal) {
+    return await this.command('get_version', signal)
   }
 
   async command (cmd, signal) {
